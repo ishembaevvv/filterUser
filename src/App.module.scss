@@ -1,0 +1,35 @@
+%trans {
+  transition: 0.3s;
+}
+
+$color1: #fff;
+$color2: goldenrod;
+
+.App {
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btns {
+  display: flex;
+  justify-content: space-between;
+  width: 20vw;
+}
+
+button {
+  width: 100px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  background: $color2;
+  color: $color1;
+  @extend %trans;
+  &:hover {
+    background: transparent;
+    color: $color2;
+    @extend %trans;
+  }
+}
