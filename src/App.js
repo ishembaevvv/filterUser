@@ -6,7 +6,7 @@ import BtnNation2 from './components/BtnNation2/BtnNation2';
 import BtnNation3 from './components/BtnNation3/BtnNation3';
 
 function App() {
-  const [btns, setBtns] = useState("-18");
+  const [btns, setBtns] = useState("");
 
   const renderBtns = () => {
     switch (btns) {

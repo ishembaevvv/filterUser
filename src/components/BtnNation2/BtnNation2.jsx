@@ -4,7 +4,7 @@ import data from "../../data";
 import Ages from "../Ages/Ages";
 
 export default function BtnNation2() {
-  const [nation, setNation] = useState("All");
+  const [nation, setNation] = useState("");
 
   const renderUsersFilter = () => {
     switch (nation) {

@@ -28,8 +28,10 @@ button {
   color: $color1;
   @extend %trans;
   &:hover {
-    background: transparent;
-    color: $color2;
+    border: 3px solid goldenrod;
+    box-shadow: 4px 4px 57px 0px goldenrod;
+    background: #fff;
+    color: goldenrod;
     @extend %trans;
   }
 }

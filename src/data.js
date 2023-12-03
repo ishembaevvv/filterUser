@@ -52,6 +52,12 @@ const data = [
         avatar: img1,
     },
     {
+        full_name: "Ilya Karpunov",
+        age: 41,
+        nation: "Russia",
+        avatar: img1,
+    },
+    {
         full_name: "Bella Olvard",
         age: 17,
         nation: "Mexico",
